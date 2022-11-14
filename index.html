@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Boggle</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div id="dashboard"><h1 class="highlight-disabled">Boggle!</h1></div>
+    <div id="options">
+      <button id="play">Start new game!</button>
+      <button id="reveal-words" disabled>Reveal All</button>
+    </div>
+    <div id="timer">
+      <h3>1:00</h3>
+    </div>
+    <div id="gameboard" class="highlight-disabled">
+      <div class="row">
+        <div class="tile left-side"><h2>a</h2></div>
+        <div class="tile middle"><h2>a</h2></div>
+        <div class="tile middle"><h2>a</h2></div>
+        <div class="tile right-side"><h2>a</h2></div>
+      </div>
+      <div class="row">
+        <div class="tile left-side"><h2>a</h2></div>
+        <div class="tile middle"><h2>a</h2></div>
+        <div class="tile middle"><h2>a</h2></div>
+        <div class="tile right-side"><h2>a</h2></div>
+      </div>
+      <div class="row">
+        <div class="tile left-side"><h2>a</h2></div>
+        <div class="tile middle"><h2>a</h2></div>
+        <div class="tile middle"><h2>a</h2></div>
+        <div class="tile right-side"><h2>a</h2></div>
+      </div>
+      <div class="row">
+        <div class="tile left-side"><h2>a</h2></div>
+        <div class="tile middle"><h2>a</h2></div>
+        <div class="tile middle"><h2>a</h2></div>
+        <div class="tile right-side"><h2>a</h2></div>
+      </div>
+    </div>
+    <div id="game-stats">
+      <div id="scoreboard">
+        <h2>Score</h2>
+        <h2 id="score">0</h2>
+      </div>
+      <div id="searched-board">
+        <h2>Searched</h2>
+        <div>
+          <ul id="searched-list"></ul>
+        </div>
+      </div>
+      <div id="solutions">
+        <h2>Solutions</h2>
+        <div>
+          <ul id="solutions-list"></ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
